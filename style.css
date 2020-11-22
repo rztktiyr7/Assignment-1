@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 46px;
+    background: black;
+}
+h2{
+    text-transform: uppercase;
+}
+h2:hover{
+    text-decoration: underline;
+}
+#black{
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+.menu{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    overflow: visible;
+}
+.menu ul {
+    width: 100%;
+    margin: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu ul li {
+    list-style: none;
+}
+.menu ul li , 
+.menu ul li a {
+    line-height: 46px;
+    color: linen;
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}
+.one{
+    background: gray;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-left: 175px;
+    margin-bottom: auto;
+    }
+#About_me{
+    background-color:lightslategray;
+    color: cornsilk;
+    padding: 20px;
+    margin: 0px
+    
+}
+#Education {
+    background-color:indianred;
+    color: cornsilk;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+#Technical_skills{
+    background-color:lightslategray;
+    color: cornsilk;
+    padding: 20px;
+    margin: 0px
+}
+#Technical_skills div {
+    background: grey;
+    height: 50px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+}
+#Interpersonal_skills{
+    background-color:indianred;
+    color: cornsilk;
+    padding: 20px;
+    margin: 0px
+    }
+#Interpersonal_skills div {
+    background: grey;
+    height: 50px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+}
+#Languages{
+    background-color:lightslategray;
+    color: cornsilk;
+    padding: 20px;
+    margin: 0px
+    }
+#Languages div{
+    background: grey;
+    height: 200px;
+    width: 200px;
+    margin-left: 300px;
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+#Certificates{
+    background-color:indianred;
+    color: cornsilk;
+    padding: 20px;
+    margin: 0px
+    }
+#Certificates div{
+    background: gray;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-left: 175px;
+    margin-top:auto;
+}
+footer{
+    background:wheat;
+    height: 50px;
+    text-align: center;
+}
+
